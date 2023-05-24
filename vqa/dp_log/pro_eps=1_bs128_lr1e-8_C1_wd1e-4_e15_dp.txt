@@ -1,0 +1,43 @@
+srun: job 54043642 queued and waiting for resources
+srun: job 54043642 has been allocated resources
+2023-05-16 22:13:25.764308: I tensorflow/core/util/port.cc:110] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2023-05-16 22:13:25.820265: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-05-16 22:13:35.510444: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/n/home11/alyssahuang02/miniconda3/lib/python3.9/site-packages/transformers/generation/utils.py:1344: UserWarning: Using `max_length`'s default (20) to control the generation length. This behaviour is deprecated and will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+  0%|          | 0/469 [00:00<?, ?it/s]/n/home11/alyssahuang02/DPClip/vqa/dpadam_optimizer.py:95: UserWarning: This overload of add is deprecated:
+	add(Number alpha, Tensor other)
+Consider using one of the following signatures instead:
+	add(Tensor other, *, Number alpha) (Triggered internally at ../torch/csrc/utils/python_arg_parser.cpp:1485.)
+  grad = grad.add(group['weight_decay'], p.data)
+  0%|          | 1/469 [00:07<57:30,  7.37s/it]  0%|          | 1/469 [00:11<1:33:04, 11.93s/it]
+Traceback (most recent call last):
+  File "/n/home11/alyssahuang02/DPClip/vqa/train_blip_nondp.py", line 295, in <module>
+    outputs = vqa(**inputs)
+  File "/n/home11/alyssahuang02/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/n/home11/alyssahuang02/miniconda3/lib/python3.9/site-packages/transformers/models/blip/modeling_blip.py", line 1208, in forward
+    question_embeds = self.text_encoder(
+  File "/n/home11/alyssahuang02/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/n/home11/alyssahuang02/miniconda3/lib/python3.9/site-packages/transformers/models/blip/modeling_blip_text.py", line 781, in forward
+    encoder_outputs = self.encoder(
+  File "/n/home11/alyssahuang02/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/n/home11/alyssahuang02/miniconda3/lib/python3.9/site-packages/transformers/models/blip/modeling_blip_text.py", line 439, in forward
+    layer_outputs = layer_module(
+  File "/n/home11/alyssahuang02/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/n/home11/alyssahuang02/miniconda3/lib/python3.9/site-packages/transformers/models/blip/modeling_blip_text.py", line 356, in forward
+    cross_attention_outputs = self.crossattention(
+  File "/n/home11/alyssahuang02/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/n/home11/alyssahuang02/miniconda3/lib/python3.9/site-packages/transformers/models/blip/modeling_blip_text.py", line 273, in forward
+    self_outputs = self.self(
+  File "/n/home11/alyssahuang02/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/n/home11/alyssahuang02/miniconda3/lib/python3.9/site-packages/transformers/models/blip/modeling_blip_text.py", line 176, in forward
+    attention_scores = torch.matmul(query_layer, key_layer.transpose(-1, -2))
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 218.00 MiB (GPU 0; 79.21 GiB total capacity; 76.86 GiB already allocated; 163.06 MiB free; 77.36 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+srun: error: holygpu8a31106: task 0: Exited with exit code 1

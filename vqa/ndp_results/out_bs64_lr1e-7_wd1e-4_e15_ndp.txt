@@ -1,0 +1,53 @@
+CONFIG: -- batch_size = 64, lr = 1e-07, C = 1.0, wd = 0.0001, epoch = 15, epsilon = 1.0, training size 60000, DP? 0--
+--- Zero-Shot Eval ---
+--On val dataset
+Acc: 0.5293333333333333
+--- train phase ---
+--- at 0^th epoch ---, 
+--On val dataset
+Acc: 0.5511
+--- at 1^th epoch ---, 
+--On val dataset
+Acc: 0.5409333333333334
+--- at 2^th epoch ---, 
+--On val dataset
+Acc: 0.4963666666666667
+--- at 3^th epoch ---, 
+--On val dataset
+Acc: 0.4576
+--- at 4^th epoch ---, 
+--On val dataset
+Acc: 0.4539666666666667
+--- at 5^th epoch ---, 
+--On val dataset
+Acc: 0.45666666666666667
+--- at 6^th epoch ---, 
+--On val dataset
+Acc: 0.48313333333333336
+--- at 7^th epoch ---, 
+--On val dataset
+Acc: 0.4887
+--- at 8^th epoch ---, 
+--On val dataset
+Acc: 0.49683333333333335
+--- at 9^th epoch ---, 
+--On val dataset
+Acc: 0.49933333333333335
+--- at 10^th epoch ---, 
+--On val dataset
+Acc: 0.5007666666666667
+--- at 11^th epoch ---, 
+--On val dataset
+Acc: 0.5053333333333333
+--- at 12^th epoch ---, 
+--On val dataset
+Acc: 0.5045
+--- at 13^th epoch ---, 
+--On val dataset
+Acc: 0.5002333333333333
+--- at 14^th epoch ---, 
+--On val dataset
+Acc: 0.4945333333333333
+--- Eval phase ---
+--On val dataset
+Acc: 0.4945333333333333

@@ -1,0 +1,7 @@
+CONFIG: -- batch_size = 128, lr = 1e-08, C = 1.0, wd = 0.0001, epoch = 15, epsilon = 10.0, training size 60000, DP? 1--
+--- Zero-Shot Eval ---
+--On val dataset
+Acc: 0.5293333333333333
+DP-SGD with sampling rate = 0.213% and noise_multiplier = 0.4965346927905563 iterated over 7032 steps satisfies differential privacy with eps = 10 and delta = 8.333333333333334e-06.
+Noise Scale:  0.4965346927905563
+--- train phase ---

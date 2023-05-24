@@ -1,0 +1,153 @@
+a photo of the number: "x"
+Using downloaded and verified file: /n/home11/alyssahuang02/.cache/train_32x32.mat
+Dataset: SVHN
+Device: cuda
+Batch Size: 32
+Optimizer Parameters: lr=1e-05, betas=(0.9, 0.98), eps=1e-06, weight_decay=1e-06
+Classes: ['0 - zero', '1 - one', '2 - two', '3 - three', '4 - four', '5 - five', '6 - six', '7 - seven', '8 - eight', '9 - nine']
+Using downloaded and verified file: data/train_32x32.mat
+Using downloaded and verified file: data/test_32x32.mat
+Using downloaded and verified file: data/extra_32x32.mat
+Epsilon:  3
+Delta:  6.825286320761156e-06
+Clip Param C:  0.1
+DP-SGD with sampling rate = 0.0437% and noise_multiplier = 0.5928630405906996 iterated over 34340 steps satisfies differential privacy with eps = 3 and delta = 6.825286320761156e-06.
+Noise Scale:  0.5928630405906996
+**********
+Num Epochs: 15
+tensor(2.7012, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(2.2871, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+****the 0^th epoch *****
+**** on training set *****
+Accuracy Rate: 0.6903247833251953
+*************************
+**** on testing set *****
+Accuracy Rate: 0.7434735894203186
+*************************
+**** on extra set *****
+Accuracy Rate: 0.769062876701355
+*************************
+tensor(2.0312, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.9277, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(2.2070, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.7715, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.7480, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(2.3301, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.7148, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.9473, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.8398, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.7061, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.6777, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.8730, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.6250, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.7188, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.7832, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.5098, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.9199, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.8672, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.7148, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.4795, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(2.0273, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.7051, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.6904, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+****the 10^th epoch *****
+**** on training set *****
+Accuracy Rate: 0.8927128911018372
+*************************
+**** on testing set *****
+Accuracy Rate: 0.9070177674293518
+*************************
+**** on extra set *****
+Accuracy Rate: 0.9392208456993103
+*************************
+tensor(1.6035, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.8574, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.8975, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.6963, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.8711, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.7949, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.6836, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.7656, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.8770, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+Training Time:  6368.3019070625305
+---on testing----
+Accuracy Rate: 0.9133906364440918
+---on extra----
+Accuracy Rate: 0.9454734325408936
+------------------------------------
+Using downloaded and verified file: /n/home11/alyssahuang02/.cache/train_32x32.mat
+Dataset: SVHN
+Device: cuda
+Batch Size: 32
+Optimizer Parameters: lr=1e-05, betas=(0.9, 0.98), eps=1e-06, weight_decay=1e-06
+Classes: ['0 - zero', '1 - one', '2 - two', '3 - three', '4 - four', '5 - five', '6 - six', '7 - seven', '8 - eight', '9 - nine']
+Using downloaded and verified file: data/train_32x32.mat
+Using downloaded and verified file: data/test_32x32.mat
+Using downloaded and verified file: data/extra_32x32.mat
+Epsilon:  3
+Delta:  6.825286320761156e-06
+Clip Param C:  0.5
+DP-SGD with sampling rate = 0.0437% and noise_multiplier = 0.5928630405906996 iterated over 34340 steps satisfies differential privacy with eps = 3 and delta = 6.825286320761156e-06.
+Noise Scale:  0.5928630405906996
+**********
+Num Epochs: 15
+tensor(2.7539, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(2.4492, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+****the 0^th epoch *****
+**** on training set *****
+Accuracy Rate: 0.6932587623596191
+*************************
+**** on testing set *****
+Accuracy Rate: 0.7464680671691895
+*************************
+**** on extra set *****
+Accuracy Rate: 0.7715876698493958
+*************************
+tensor(2.2539, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.9473, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(2.0625, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(2.2266, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.9287, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.8740, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(2.5039, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.6934, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.7783, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.8457, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.7969, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(2.0273, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.5449, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.7676, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.7500, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.6270, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.8965, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.6699, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.9199, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.6152, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.7285, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.5508, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.8496, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+****the 10^th epoch *****
+**** on training set *****
+Accuracy Rate: 0.8926582932472229
+*************************
+**** on testing set *****
+Accuracy Rate: 0.9123157262802124
+*************************
+**** on extra set *****
+Accuracy Rate: 0.9398534297943115
+*************************
+tensor(1.6885, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.6650, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.5791, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(2.0508, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.7754, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.6875, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.7734, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.4902, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+tensor(1.7734, device='cuda:0', dtype=torch.float16, grad_fn=<DivBackward0>)
+Training Time:  6268.588606119156
+---on testing----
+Accuracy Rate: 0.9199170470237732
+---on extra----
+Accuracy Rate: 0.9466143846511841
+------------------------------------

@@ -1,0 +1,5 @@
+CONFIG: -- batch_size = 128, lr = 1e-08, C = 1.0, wd = 0.0001, epoch = 15, epsilon = 1.0, training size 60000, DP? 0--
+--- Zero-Shot Eval ---
+--On val dataset
+Acc: 0.5293333333333333
+--- train phase ---

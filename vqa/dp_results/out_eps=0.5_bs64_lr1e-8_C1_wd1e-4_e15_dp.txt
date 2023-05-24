@@ -1,0 +1,49 @@
+CONFIG: -- batch_size = 64, lr = 1e-08, C = 1.0, wd = 0.0001, epoch = 15, epsilon = 0.5, training size 60000, DP? 1--
+--- Zero-Shot Eval ---
+--On val dataset
+Acc: 0.5293333333333333
+DP-SGD with sampling rate = 0.107% and noise_multiplier = 1.316043868191452 iterated over 14063 steps satisfies differential privacy with eps = 0.5 and delta = 8.333333333333334e-06.
+Noise Scale:  1.316043868191452
+--- train phase ---
+--- at 0^th epoch ---, 
+--On val dataset
+Acc: 0.5293333333333333
+--- at 1^th epoch ---, 
+--On val dataset
+Acc: 0.5293333333333333
+--- at 2^th epoch ---, 
+--On val dataset
+Acc: 0.5293333333333333
+--- at 3^th epoch ---, 
+--On val dataset
+Acc: 0.5293333333333333
+--- at 4^th epoch ---, 
+--On val dataset
+Acc: 0.5293666666666667
+--- at 5^th epoch ---, 
+--On val dataset
+Acc: 0.5293666666666667
+--- at 6^th epoch ---, 
+--On val dataset
+Acc: 0.5294
+--- at 7^th epoch ---, 
+--On val dataset
+Acc: 0.5294
+--- at 8^th epoch ---, 
+--On val dataset
+Acc: 0.5294
+--- at 9^th epoch ---, 
+--On val dataset
+Acc: 0.5294
+--- at 10^th epoch ---, 
+--On val dataset
+Acc: 0.5293666666666667
+--- at 11^th epoch ---, 
+--On val dataset
+Acc: 0.5293666666666667
+--- at 12^th epoch ---, 
+--On val dataset
+Acc: 0.5294
+--- at 13^th epoch ---, 
+--On val dataset
+Acc: 0.5293666666666667

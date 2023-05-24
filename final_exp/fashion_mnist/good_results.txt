@@ -1,0 +1,44 @@
+Dataset: Fashion MNIST
+Device: cuda
+Batch Size: 32
+Optimizer Parameters: lr=1e-05, betas=(0.9, 0.98), eps=1e-06, weight_decay=1e-05
+Classes: ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
+Epsilon:  10
+Delta:  8.333333333333334e-06
+Clip Param C:  0.1
+DP-SGD with sampling rate = 0.0533% and noise_multiplier = 0.45815523076479 iterated over 56250 steps satisfies differential privacy with eps = 10 and delta = 8.333333333333334e-06.
+Noise Scale:  0.45815523076479
+**********
+Num Epochs: 30
+With Des
+Accuracy Rate: 0.9073482155799866
+
+
+Dataset: Fashion MNIST
+Device: cuda
+Batch Size: 32
+Optimizer Parameters: lr=1e-05, betas=(0.9, 0.98), eps=1e-06, weight_decay=0.0001
+Classes: ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
+Epsilon:  3
+Delta:  8.333333333333334e-06
+Clip Param C:  0.1
+DP-SGD with sampling rate = 0.0533% and noise_multiplier = 0.6522512742032672 iterated over 93750 steps satisfies differential privacy with eps = 3 and delta = 8.333333333333334e-06.
+Noise Scale:  0.6522512742032672
+**********
+Num Epochs: 50
+Training Time:  11150.634189605713
+Accuracy Rate: 0.8974640369415283
+
+Dataset: Fashion MNIST
+Device: cuda
+Batch Size: 32
+Optimizer Parameters: lr=1e-05, betas=(0.9, 0.98), eps=1e-06, weight_decay=0.0001
+Classes: ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
+Epsilon:  1
+Delta:  8.333333333333334e-06
+Clip Param C:  0.1
+DP-SGD with sampling rate = 0.0533% and noise_multiplier = 0.9841119699480136 iterated over 93750 steps satisfies differential privacy with eps = 1 and delta = 8.333333333333334e-06.
+Noise Scale:  0.9841119699480136
+**********
+Num Epochs: 50
+Accuracy Rate: 0.8833865523338318

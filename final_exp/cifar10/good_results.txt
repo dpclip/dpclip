@@ -1,0 +1,52 @@
+Files already downloaded and verified
+Dataset: CIFAR10
+Device: cuda
+Batch Size: 32
+Optimizer Parameters: lr=1e-05, betas=(0.9, 0.98), eps=1e-06, weight_decay=1e-05
+Classes: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+Files already downloaded and verified
+Files already downloaded and verified
+Epsilon:  1
+Delta:  1e-05
+Clip Param C:  1
+DP-SGD with sampling rate = 0.064% and noise_multiplier = 0.9348198516906676 iterated over 46875 steps satisfies differential privacy with eps = 1 and delta = 1e-05.
+Noise Scale:  0.9348198516906676
+
+Training Time:  5830.09884762764
+Accuracy Rate: 0.9480830430984497
+
+
+Files already downloaded and verified
+Dataset: CIFAR10
+Device: cuda
+Batch Size: 32
+Optimizer Parameters: lr=1e-05, betas=(0.9, 0.98), eps=1e-06, weight_decay=1e-05
+Classes: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+Files already downloaded and verified
+Files already downloaded and verified
+Epsilon:  3
+Delta:  1e-05
+Clip Param C:  1
+DP-SGD with sampling rate = 0.064% and noise_multiplier = 0.6303013039472699 iterated over 46875 steps satisfies differential privacy with eps = 3 and delta = 1e-05.
+Noise Scale:  0.6303013039472699
+
+Training Time:  5915.819645166397
+Accuracy Rate: 0.9538738131523132
+
+
+Files already downloaded and verified
+Dataset: CIFAR10
+Device: cuda
+Batch Size: 32
+Optimizer Parameters: lr=1e-05, betas=(0.9, 0.98), eps=1e-06, weight_decay=1e-05
+Classes: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+Files already downloaded and verified
+Files already downloaded and verified
+Epsilon:  10
+Delta:  1e-05
+Clip Param C:  1
+DP-SGD with sampling rate = 0.064% and noise_multiplier = 0.46469207507436144 iterated over 46875 steps satisfies differential privacy with eps = 10 and delta = 1e-05.
+Noise Scale:  0.46469207507436144
+
+Training Time:  6194.632546901703
+Accuracy Rate: 0.9558705687522888
